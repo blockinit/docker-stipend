@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  stipend:
+    build: .
+    ports:
+      - 46978:46978
