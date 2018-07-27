@@ -19,4 +19,4 @@ RUN cd /opt/stipend &&\
   bash ./compile-daemon.sh
 
 WORKDIR /opt/stipend/src
-CMD ["./stipendd", "--help"]
+CMD ["./stipendd", "-debugsmsg", "-printtoconsole"]
